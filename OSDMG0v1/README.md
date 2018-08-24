@@ -1,6 +1,6 @@
 # First Version of my opensource DMG Board
 
-**Author:** rlcmtzc12 *(Based on rlcmtzc12 designe)*  
+**Author:** rlcmtzc12 *(Based on rlcmtzc12 design)*  
 **Tested:** Yes and working  
 **BOM-file:** Included  
 **Build:** [Build](https://www.sudomod.com/forum/viewtopic.php?f=43&t=6388)
