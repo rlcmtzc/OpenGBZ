@@ -14,5 +14,5 @@ The attached Eagle-files include everything.
 
 ## Images:
 
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMGBASE/images/opemGBZ_bottom.PNG)
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMGBASE/images/opemGBZ_top.PNG)
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMGBASE/images/opemGBZ_bottom.png)
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMGBASE/images/opemGBZ_top.png)
