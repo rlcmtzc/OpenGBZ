@@ -1,7 +1,8 @@
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![alt text](https://github.com/rlcmtzc/OpenGBZ/blob/master/openGBZ_logo.png "Logo Title Text 1")
 # OpenGBZ
 This is an **OpenSource Gameboy Zero PCB Project**. It is intended to make your own custom Button PCB and change the design to your wishes.  
 Your welcome to download the PCB files and use it for your own project. If you change anything on the design it would be great if you  
-push your changes here so the project can grow and we can get some nice different designs and ideas.  
+push your changes here so the project can grow and we can get some nice different designs and ideas. Feel also free to push other gameboyzero related PCBs if you want to share them. 
 
 Please also add your changes to the [forum](https://www.sudomod.com/forum/viewtopic.php?f=42&t=6499) post so everybody can easily see the changes and features of the different designs. I will also add the different designes here in the Readme file (Can´t update all the time and immediately so in the forum should be the newest versions and of course in the different directories)  
 
