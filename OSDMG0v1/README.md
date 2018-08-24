@@ -11,11 +11,11 @@ This board has an integrated charging and Boost circuit. The Boost circuit is ba
 
 ## Images:
 
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/bottom_new.PNG)
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/top_new.PNG)
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/pcb_stack_front.jpg)
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/pcb_back.jpg)
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/pcb_back_soldered.jpg)
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/images/bottom_new.PNG)
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/images/top_new.PNG)
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/images/pcb_stack_front.jpg)
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/images/pcb_back.jpg)
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/images/pcb_back_soldered.jpg)
 
 ## BOM
 
