@@ -1,4 +1,4 @@
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![alt text](https://github.com/rlcmtzc/OpenGBZ/blob/master/openGBZ_logo.png "Logo Title Text 1")
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![alt text](https://github.com/rlcmtzc/OpenGBZ/blob/master/openGBZ_logo.png "openGBZ Logo")
 # OpenGBZ
 This is an **OpenSource Gameboy Zero PCB Project**. It is intended to make your own custom Button PCB and change the design to your wishes.  
 Your welcome to download the PCB files and use it for your own project. If you change anything on the design it would be great if you  
@@ -12,10 +12,11 @@ In the different directories you find the different PCBs. If you want to push a 
 This readme should at least include (See OSDMG0v1 and OSDMG0v2 as a template) :
 * **Your name** (and on which board its based of)
 * If you tested the Board and if it works
-* if you have also a Boom-file for the needed components
+* if you have also a BOM-file for the needed components
+* if used in a Build you can link the Build
 * A description of the Features of the Board (also some Pictures would be nice)
 * Additional Info to youre the Board if needed.
-* Short description on how to use the board and a list of parts needed for the Board (if not included in the Boom file)  
+* Short description on how to use the board and a list of parts needed for the Board (if not included in the BOM file)  
 
 In the same directory as the readme you should add the .sch and .brd files and gerbers. (You can also link to your project if it was created with an online editor just make sure everybody can get the files)  
 
@@ -24,7 +25,7 @@ You can also add your current work in progress files and ask others for ideas or
 ## Overview of currently added projects:
 Here is a short overview of the currently added projets to this repository pleas keep in mind that this part is not necessary up to date pleas look in the forum post or in the different directories for the newest designs.  
 
-| Directory Name       | Author Name           | Tested     | Boom-file | progress          |
+| Directory Name       | Author Name           | Tested     | BOM-file | progress          |
 | :-------------------:|:---------------------:| :---------:| :-------: | :----------------:|
 | OSDMG0v1             | rlcmtzc12             | Yes        | Yes       | finished          |
 | OSDMG0v2             | rlcmtzc12             | No         | No        | work in progress  |
