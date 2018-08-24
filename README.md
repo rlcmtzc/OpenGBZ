@@ -18,12 +18,11 @@ You can also add your current work in progress files and ask others for ideas or
 ## Overvew of currently added projects:
 Here is a short overview of the currently added projets to this repository pleas keep in mind that this part is not necessary up to date pleas look in the forum post or in the different directories for the newest designs.
 
-```diff
 | Directory Name       | Author Name           | Tested     | Boom-file | progress          |
 | :-------------------:|:---------------------:| :---------:| :-------: | :----------------:|
-| OSDMG0v1             | rlcmtzc12             | + Yes      | + Yes     | finished          |
-| OSDMG0v2             | rlcmtzc12             | - No       | - No      | work in progress  |
-```
+| OSDMG0v1             | rlcmtzc12             | Yes        | Yes       | finished          |
+| OSDMG0v2             | rlcmtzc12             | No         | No        | work in progress  |
+
 ## Terms of use
 * **You can do everything with the files the only thing I would appreciate not to do is to use the designs and sell the PCBs.**
 * **Please add the logo found in this directory and add it to your PCB so everybody can determ that this is part of this project**
