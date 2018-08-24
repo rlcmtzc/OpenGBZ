@@ -1,4 +1,4 @@
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![alt text](https://github.com/rlcmtzc/OpenGBZ/blob/master/openGBZ_logo.png "openGBZ Logo")
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![alt text](https://github.com/rlcmtzc/OpenGBZ/blob/master/logos/bottom_openGBZ_biglogo.png "openGBZ Logo")
 # OpenGBZ
 This is an **OpenSource Gameboy Zero PCB Project**. It is intended to make your own custom Button PCB and change the design to your wishes.  
 Your welcome to download the PCB files and use it for your own project. If you change anything on the design it would be great if you  
