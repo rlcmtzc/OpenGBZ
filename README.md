@@ -5,7 +5,7 @@ push your changes here so the project can grow and we can get some nice differen
 
 Please also add your changes to the [forum](https://www.sudomod.com/forum/viewtopic.php?f=42&t=6499) post so everybody can easily see the changes and features of the different designs. I will also add the different designes here in the Readme file (Can´t update all the time and immediately so in the forum should be the newest versions and of course in the different directories)  
 
-## How to add your Designe and what is needed:
+## How to add your Design and what is needed:
 In the different directories you find the different PCBs. If you want to push a design please add a new directory with a name for your designe and in there add a README.md where you can shortly describe the features of your PCB.  
 
 This readme should at least include (See OSDMG0v1 and OSDMG0v2 as a template) :
