@@ -27,6 +27,7 @@ Here is a short overview of the currently added projets to this repository pleas
 
 | Directory Name       | Author Name           | Tested     | BOM-file | progress          |
 | :-------------------:|:---------------------:| :---------:| :-------: | :----------------:|
+| OSDMGBASE            | rlcmtzc12             | Yes        | not needed| finished          |
 | OSDMG0v1             | rlcmtzc12             | Yes        | Yes       | finished          |
 | OSDMG0v2             | rlcmtzc12             | No         | No        | work in progress  |
   
