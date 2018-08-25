@@ -3219,6 +3219,8 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="1.82 USD" x="31.089596875" y="1.828796875" size="1.778" layer="27" display="off"/>
 <attribute name="PRODUCT_TYPE" value="Connector" x="31.089596875" y="1.828796875" size="1.778" layer="27" display="off"/>
 </element>
+<element name="SW0" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="" x="-107.47248125" y="-67.54368125"/>
+<element name="SW1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="" x="-111.13008125" y="-67.84848125"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -3378,9 +3380,11 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="5"/>
 <contactref element="R6" pad="2"/>
 <contactref element="C1" pad="1"/>
-<contactref element="U3" pad="5"/>
 <contactref element="U3" pad="4"/>
 <contactref element="L1" pad="2"/>
+<contactref element="U3" pad="5"/>
+<contactref element="SW1" pad="1"/>
+<wire x1="-68.3006" y1="1.27" x2="-111.13008125" y2="-67.84848125" width="0" layer="19" extent="1-1"/>
 <wire x1="-62.23" y1="3.94" x2="-68.3006" y2="1.27" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.28" y1="3.94" x2="-62.23" y2="3.94" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.51" y1="22.225" x2="-61.28" y2="3.94" width="0" layer="19" extent="1-1"/>
@@ -3496,6 +3500,9 @@ design rules under a new name.</description>
 <contactref element="R-OUT" pad="1"/>
 <contactref element="JP2" pad="13"/>
 <wire x1="-81.442559375" y1="-22.920959375" x2="-81.3816" y2="-61.2648" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="L-OUT1">
+<contactref element="SW0" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

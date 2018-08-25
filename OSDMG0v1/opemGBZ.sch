@@ -12289,6 +12289,8 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <part name="SPK-" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X13" device="" package3d_urn="urn:adsk.eagle:package:22421/2"/>
 <part name="USBC" library="1-2295018-2" deviceset="1-2295018-2" device=""/>
+<part name="SW0" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
+<part name="SW1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12348,6 +12350,8 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <instance part="SPK-" gate="G$1" x="200.66" y="101.6" rot="R180"/>
 <instance part="JP2" gate="A" x="27.94" y="93.98" rot="R90"/>
 <instance part="USBC" gate="G$1" x="20.32" y="147.32"/>
+<instance part="SW0" gate="G$1" x="309.88" y="35.56" rot="R180"/>
+<instance part="SW1" gate="G$1" x="309.88" y="40.64" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -12649,16 +12653,20 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <junction x="289.56" y="27.94"/>
-<label x="289.56" y="35.56" size="1.778" layer="95" xref="yes"/>
-<wire x1="284.48" y1="35.56" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="35.56" x2="289.56" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="27.94" x2="284.48" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="27.94" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="35.56" x2="289.56" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="60.96" x2="276.86" y2="60.96" width="0.1524" layer="91"/>
-<junction x="289.56" y="35.56"/>
-<pinref part="U3" gate="U1" pin="IN"/>
 <pinref part="U3" gate="U1" pin="EN"/>
 <pinref part="L1" gate="A" pin="2"/>
+<pinref part="U3" gate="U1" pin="IN"/>
+<wire x1="284.48" y1="35.56" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
+<junction x="289.56" y="35.56"/>
+</segment>
+<segment>
+<pinref part="SW1" gate="G$1" pin="P"/>
+<wire x1="307.34" y1="40.64" x2="299.72" y2="40.64" width="0.1524" layer="91"/>
+<label x="299.72" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BAT-" class="0">
@@ -12870,6 +12878,12 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <pinref part="JP2" gate="A" pin="13"/>
 <label x="43.18" y="71.12" size="1.778" layer="95" rot="R270" xref="yes"/>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="L-OUT1" class="0">
+<segment>
+<pinref part="SW0" gate="G$1" pin="P"/>
+<wire x1="307.34" y1="35.56" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
