@@ -20,5 +20,9 @@ Some Simulationdata of the Boost IC:
 ![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/efficency.PNG)  
 (Keep in mind there is also heat, a lot of heat at 4A so you probably should not use it over 3A. I try to make the copperareas on the PCB quit big so they can work as heat sinks but of course they will not dissipate 5V@4A --> 20W)
 
+Here are the Schematics. I splitted them in Eagle up for better overview:
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/power-circuit.PNG)  
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/Button-Audio.PNG)  
+
 ## Get Project:
-Im currently working on the eagle filse so you can´t get it now but soon.
+Im currently working on the eagle pcb files the schematics are done. Both you can download keep in mind the board isn´t routed yet.
