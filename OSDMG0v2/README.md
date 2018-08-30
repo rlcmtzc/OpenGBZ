@@ -21,4 +21,4 @@ Some Simulationdata of the Boost IC:
 (Keep in mind there is also heat, a lot of heat at 4A so you probably should not use it over 3A. I try to make the copperareas on the PCB quit big so they can work as heat sinks but of course they will not dissipate 5V@4A --> 20W)
 
 ## Get Project:
-[Here](https://easyeda.com/editor#id=|1b6bda1489604f5b8086fe82ce4b43ba|fd54b8f932f541aa9ddfa8aae15e51a3) you can edit and change the Project online. Or the attached Altium-files include everything. (I don´t have the more common Eagle files for this Project maybe someone can adapt them to Eagle)
+Im currently working on the eagle filse so you can´t get it now but soon.
