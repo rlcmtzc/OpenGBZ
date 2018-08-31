@@ -7,7 +7,7 @@
 
 ## Description:
 
-This board has an integrated charging and Boost circuit. The Boost circuit is based on the TPS61236P Boost IC. (Datasheed found [here](http://www.ti.com/lit/ds/symlink/tps61236p.pdf)) The outputvoltage is set to around 5 Volt. The Boost circuit can be switched on with a powerswitch. The charging circuit of the Battery is based on TP4056 IC which can charge a single lithium-ion battery with up to 1A (Datasheed found [here](https://www.e-gizmo.net/oc/kits%20documents/TP4056-1A%20Li-ion%20Battery%20Charger/TP4056-1A%20Li-ion%20battery%20charger%20Manual.pdf)). Also I integrated the FS312G-F IC which protect the Battery from overcharge, overdischarge and overcurrent (Datasheed found [here](https://www.ic-fortune.com/upload/Download/FS312F-G-DS-12_EN.pdf)). The board will be charged with an usb type c connector. On the board is place for an standard PAM module which then connect to place for a volumewheel and the aux-port. On the front there are the standard buttons (Up, Down, Left, Right, Start, Select, A, B, X, Y)  
+This board has an integrated charging and Boost circuit. The Boost circuit is based on the TPS61236P Boost IC. (Datasheed found [here](http://www.ti.com/lit/ds/symlink/tps61236p.pdf)) The outputvoltage is set to around 5 Volt. The Boost circuit can be switched on with a powerswitch. The charging circuit of the Battery is based on TP4056 IC which can charge a single lithium-ion battery with up to 1A (Datasheed found [here](https://www.e-gizmo.net/oc/kits%20documents/TP4056-1A%20Li-ion%20Battery%20Charger/TP4056-1A%20Li-ion%20battery%20charger%20Manual.pdf)). Also I integrated the FS312G-F IC which protect the Battery from overcharge, overdischarge and overcurrent (Datasheed found [here](https://www.ic-fortune.com/upload/Download/FS312F-G-DS-12_EN.pdf)). The board will be charged with an usb type c connector. On the board is place for an standard PAM module which then connect to place for a volumewheel and the aux-port. On the front there are the standard buttons (Up, Down, Left, Right, Start, Select, A, B, X, Y) All the Buttons are connected with an ATmega32u4. The Atmega32u4 can be programmed over the USB-C Port by switching a Button. The Code for the Arduino can be used from the [sudomod wiki](https://www.sudomod.com/wiki/index.php/Leonardo_/_Pro_Micro).
 The difference to the first version is that this one has an integrated safe shutdown which is completely done on the hardwareside so you don´t need any script.
 It works like following:  
 First when you switch on the power a capacitor gets charged. When the capacitor is charged over a given treshold voltage a Mosfet switches on and allow voltage to the pi the capacitor charges on to 5V.
@@ -23,6 +23,9 @@ Some Simulationdata of the Boost IC:
 Here are the Schematics. I splitted them in Eagle up for better overview:
 ![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/power-circuit.PNG)  
 ![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/Button-Audio.PNG)  
+
+First images of the board still work in progress and quit a bit to do. The Eagle files are updated to.
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/board.PNG)  
 
 ## Get Project:
 Im currently working on the eagle pcb files the schematics are done. Both you can download keep in mind the board isn´t routed yet.
