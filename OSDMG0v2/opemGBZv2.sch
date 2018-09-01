@@ -21118,7 +21118,6 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="USBC1" library="1-2295018-2" deviceset="1-2295018-2" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22"/>
@@ -21129,6 +21128,7 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <part name="S2" library="JS202011SCQN" deviceset="JS202011SCQN" device=""/>
 <part name="U$1" library="diy-modules" deviceset="AMPLIFIER-PAM8403" device=""/>
 <part name="U1" library="fs8205" deviceset="FS8205" device=""/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -21866,8 +21866,8 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <instance part="GND4" gate="1" x="358.14" y="-5.08"/>
 <instance part="RESET" gate="G$1" x="368.3" y="7.62" rot="R180"/>
 <instance part="USBC1" gate="G$1" x="111.76" y="81.28"/>
-<instance part="JP1" gate="G$1" x="152.422603125" y="66.084984375"/>
 <instance part="U1" gate="U1" x="121.92" y="12.7" rot="R270"/>
+<instance part="JP1" gate="G$1" x="152.4" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -22008,6 +22008,7 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <label x="144.78" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="144.78" y1="68.58" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -22196,6 +22197,7 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <label x="144.78" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="144.78" y1="66.04" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="66.04" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$37" class="0">
