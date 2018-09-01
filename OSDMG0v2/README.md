@@ -28,4 +28,4 @@ First images of the board still work in progress and quit a bit to do. The Eagle
 ![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/board.PNG)  
 
 ## Get Project:
-Im currently working on the eagle pcb files the schematics are done. Both you can download keep in mind the board isn´t routed yet.
+Im currently working on the eagle pcb files the schematics are done. (On the PCB everything is routed up to GND) Both you can download.
