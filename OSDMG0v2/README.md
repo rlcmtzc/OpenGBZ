@@ -1,4 +1,4 @@
-# First Version of my opensource DMG Board
+# Second Version of my opensource DMG Board
 
 **Author:** rlcmtzc12 *(Based on rlcmtzc12 design)*  
 **Tested:** Not yet  
