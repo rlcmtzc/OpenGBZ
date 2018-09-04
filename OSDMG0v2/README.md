@@ -24,8 +24,9 @@ Here are the Schematics. I splitted them in Eagle up for better overview:
 ![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/power-circuit.PNG)  
 ![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/Button-Audio.PNG)  
 
-First images of the board still work in progress and quit a bit to do. The Eagle files are updated to.
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/board.PNG)  
+The finished PCB (The nameplacement could be done better):
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/openGBZv2_top.png)  
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v2/Images/openGBZv2_bottom.png)  
 
 ## Get Project:
-Im currently working on the eagle pcb files the schematics are done. (On the PCB everything is routed up to GND) Both you can download.
+Just download the Eagle files.
