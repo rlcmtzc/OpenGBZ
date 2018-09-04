@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10366,70 +10366,34 @@ Source: www.kingbright.com</description>
 <wire x1="1.45" y1="0.8" x2="1.45" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="1.45" y1="-0.8" x2="-1.45" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="-1.45" y1="-0.8" x2="-1.45" y2="0.8" width="0.127" layer="21"/>
-<circle x="-1.1" y="-0.4" radius="0.2" width="0.0762" layer="21"/>
+<circle x="1.017096875" y="0.438346875" radius="0.2" width="0.0762" layer="21"/>
 <smd name="5" x="0" y="1.4" dx="0.6" dy="1.2" layer="1"/>
 <smd name="4" x="0.95" y="1.4" dx="0.6" dy="1.2" layer="1"/>
 <smd name="6" x="-0.95" y="1.4" dx="0.6" dy="1.2" layer="1"/>
 <smd name="1" x="-0.95" y="-1.4" dx="0.6" dy="1.2" layer="1"/>
 <smd name="2" x="0" y="-1.4" dx="0.6" dy="1.2" layer="1"/>
 <smd name="3" x="0.95" y="-1.4" dx="0.6" dy="1.2" layer="1"/>
-<text x="-1" y="0.3" size="0.254" layer="27">&gt;Value</text>
-<text x="0" y="-0.3" size="0.3048" layer="25">&gt;Name</text>
+<text x="-0.3228" y="-0.356375" size="0.254" layer="27">&gt;Value</text>
+<text x="-1.058240625" y="0.261096875" size="0.3048" layer="25">&gt;Name</text>
 </package>
 </packages>
 <symbols>
 <symbol name="FS8205">
-<wire x1="15.24" y1="22.86" x2="15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="15.24" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-22.86" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-5.08" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="15.24" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="15.24" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="15.24" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="10.16" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-15.24" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-15.24" x2="0" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="22.86" x2="15.24" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-22.86" x2="15.24" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-20.32" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
-<pin name="S1" x="-17.78" y="15.24" length="short"/>
-<pin name="S2" x="-17.78" y="-5.08" length="short"/>
-<pin name="G1" x="17.78" y="15.24" length="short" rot="R180"/>
-<pin name="G2" x="17.78" y="-5.08" length="short" rot="R180"/>
-<pin name="D12" x="0" y="25.4" length="short" rot="R270"/>
-<text x="-15.24" y="22.86" size="1.778" layer="95">&gt;Name</text>
-<text x="-15.24" y="-25.4" size="1.778" layer="96">&gt;Value</text>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="S1" x="-10.16" y="2.54" length="short"/>
+<pin name="S2" x="-10.16" y="-2.54" length="short"/>
+<pin name="G1" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="G2" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="D12" x="0" y="10.16" length="short" rot="R270"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -10441,10 +10405,10 @@ Source: www.kingbright.com</description>
 <device name="" package="SOT23-6">
 <connects>
 <connect gate="U1" pin="D12" pad="2 5"/>
-<connect gate="U1" pin="G1" pad="6"/>
-<connect gate="U1" pin="G2" pad="4"/>
-<connect gate="U1" pin="S1" pad="1"/>
-<connect gate="U1" pin="S2" pad="3"/>
+<connect gate="U1" pin="G1" pad="1"/>
+<connect gate="U1" pin="G2" pad="3"/>
+<connect gate="U1" pin="S1" pad="6"/>
+<connect gate="U1" pin="S2" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11799,112 +11763,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="diy-modules">
-<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;
-The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
-The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
-&lt;br&gt;
-By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
-&lt;br&gt;
-The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Version: 1.8.0 (2017-Jul-02)&lt;/i&gt;&lt;br&gt;
-&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;center&gt;
-&lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://www.diymodules.org/img/diymodules-lbr-image.php?v=1.8.0" alt="DIYmodules.org"&gt;&lt;/a&gt;
-&lt;/center&gt;</description>
-<packages>
-<package name="AMPLIFIER-PAM8403">
-<description>&lt;b&gt;Stereo Class-D 3W Audio Amplifier&lt;/b&gt; based on &lt;b&gt;PAM8403&lt;/b&gt; chip</description>
-<wire x1="-9.652" y1="10.414" x2="9.652" y2="10.414" width="0.127" layer="21"/>
-<wire x1="9.652" y1="10.414" x2="9.652" y2="-10.414" width="0.127" layer="21"/>
-<wire x1="9.652" y1="-10.414" x2="-9.652" y2="-10.414" width="0.127" layer="21"/>
-<wire x1="-9.652" y1="-10.414" x2="-9.652" y2="10.414" width="0.127" layer="21"/>
-<pad name="OUT.L-" x="-6.985" y="8.89" drill="1"/>
-<pad name="OUT.L+" x="-4.445" y="8.89" drill="1"/>
-<pad name="OUT.R-" x="6.985" y="8.89" drill="1"/>
-<pad name="OUT.R+" x="4.445" y="8.89" drill="1"/>
-<pad name="GND" x="8.255" y="-8.89" drill="1"/>
-<pad name="+5V" x="5.715" y="-8.89" drill="1"/>
-<pad name="IN.L" x="-7.62" y="-8.89" drill="1"/>
-<pad name="IN.COM" x="-5.08" y="-8.89" drill="1"/>
-<pad name="IN.R" x="-2.54" y="-8.89" drill="1"/>
-<text x="-5.08" y="-5.715" size="1.27" layer="21" align="center">IN</text>
-<text x="0" y="6.985" size="1.27" layer="21" align="center">OUT</text>
-<text x="-7.62" y="-6.985" size="1.27" layer="21" align="center">L</text>
-<text x="-2.54" y="-6.985" size="1.27" layer="21" align="center">R</text>
-<text x="-5.715" y="6.985" size="1.27" layer="21" align="center">L</text>
-<text x="5.715" y="6.985" size="1.27" layer="21" align="center">R</text>
-<wire x1="-6.604" y1="6.985" x2="-7.366" y2="6.985" width="0.127" layer="21"/>
-<wire x1="-4.826" y1="6.985" x2="-4.064" y2="6.985" width="0.127" layer="21"/>
-<wire x1="4.064" y1="6.985" x2="4.826" y2="6.985" width="0.127" layer="21"/>
-<wire x1="6.604" y1="6.985" x2="7.366" y2="6.985" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="7.366" x2="-4.445" y2="6.604" width="0.127" layer="21"/>
-<wire x1="4.445" y1="7.366" x2="4.445" y2="6.604" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-6.985" x2="-5.08" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-5.461" y1="-7.62" x2="-4.699" y2="-7.62" width="0.127" layer="21"/>
-<text x="5.715" y="-7.62" size="1.27" layer="21" rot="R90" align="center-left">+5V</text>
-<text x="8.255" y="-7.62" size="1.27" layer="21" rot="R90" align="center-left">GND</text>
-<text x="0" y="11.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-11.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="AMPLIFIER-PAM8403">
-<description>&lt;b&gt;Stereo Class-D 3W Audio Amplifier&lt;/b&gt; based on &lt;b&gt;PAM8403&lt;/b&gt; chip</description>
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
-<pin name="IN.L" x="-17.78" y="7.62" visible="pin" length="middle" direction="in"/>
-<pin name="IN.COM" x="-17.78" y="5.08" visible="pin" length="middle" direction="in"/>
-<pin name="IN.R" x="-17.78" y="2.54" visible="pin" length="middle"/>
-<pin name="+5V" x="-17.78" y="-7.62" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND" x="-17.78" y="-10.16" visible="pin" length="middle" direction="pwr"/>
-<pin name="OUT.L-" x="17.78" y="7.62" visible="pin" length="middle" direction="out" rot="R180"/>
-<pin name="OUT.L+" x="17.78" y="2.54" visible="pin" length="middle" direction="out" rot="R180"/>
-<pin name="OUT.R+" x="17.78" y="-5.08" visible="pin" length="middle" direction="out" rot="R180"/>
-<pin name="OUT.R-" x="17.78" y="-10.16" visible="pin" length="middle" direction="out" rot="R180"/>
-<text x="-12.7" y="17.78" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="15.24" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AMPLIFIER-PAM8403">
-<description>&lt;b&gt;Stereo Class-D 3W Audio Amplifier&lt;/b&gt; based on &lt;b&gt;PAM8403&lt;/b&gt; chip
-&lt;p&gt;More details available here:&lt;br&gt;
-&lt;a href="http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w-audio-amplifier"&gt;
-http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w-audio-amplifier&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/pam8403+mini+class+d"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=AMPLIFIER-PAM8403"&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="AMPLIFIER-PAM8403" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="AMPLIFIER-PAM8403">
-<connects>
-<connect gate="G$1" pin="+5V" pad="+5V"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="IN.COM" pad="IN.COM"/>
-<connect gate="G$1" pin="IN.L" pad="IN.L"/>
-<connect gate="G$1" pin="IN.R" pad="IN.R"/>
-<connect gate="G$1" pin="OUT.L+" pad="OUT.L+"/>
-<connect gate="G$1" pin="OUT.L-" pad="OUT.L-"/>
-<connect gate="G$1" pin="OUT.R+" pad="OUT.R+"/>
-<connect gate="G$1" pin="OUT.R-" pad="OUT.R-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SJ2-35954D-SMT-TR">
 <packages>
 <package name="CUI_SJ2-35954D-SMT-TR">
@@ -12226,6 +12084,112 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 </deviceset>
 </devicesets>
 </library>
+<library name="diy-modules">
+<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
+The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
+&lt;br&gt;
+By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
+&lt;br&gt;
+The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Version: 1.8.0 (2017-Jul-02)&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;center&gt;
+&lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://www.diymodules.org/img/diymodules-lbr-image.php?v=1.8.0" alt="DIYmodules.org"&gt;&lt;/a&gt;
+&lt;/center&gt;</description>
+<packages>
+<package name="AMPLIFIER-PAM8403">
+<description>&lt;b&gt;Stereo Class-D 3W Audio Amplifier&lt;/b&gt; based on &lt;b&gt;PAM8403&lt;/b&gt; chip</description>
+<wire x1="-9.652" y1="10.414" x2="9.652" y2="10.414" width="0.127" layer="21"/>
+<wire x1="9.652" y1="10.414" x2="9.652" y2="-10.414" width="0.127" layer="21"/>
+<wire x1="9.652" y1="-10.414" x2="-9.652" y2="-10.414" width="0.127" layer="21"/>
+<wire x1="-9.652" y1="-10.414" x2="-9.652" y2="10.414" width="0.127" layer="21"/>
+<text x="-5.08" y="-5.715" size="1.27" layer="21" align="center">IN</text>
+<text x="0" y="6.985" size="1.27" layer="21" align="center">OUT</text>
+<text x="-7.62" y="-6.985" size="1.27" layer="21" align="center">L</text>
+<text x="-2.54" y="-6.985" size="1.27" layer="21" align="center">R</text>
+<text x="-5.715" y="6.985" size="1.27" layer="21" align="center">L</text>
+<text x="5.715" y="6.985" size="1.27" layer="21" align="center">R</text>
+<wire x1="-6.604" y1="6.985" x2="-7.366" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-4.826" y1="6.985" x2="-4.064" y2="6.985" width="0.127" layer="21"/>
+<wire x1="4.064" y1="6.985" x2="4.826" y2="6.985" width="0.127" layer="21"/>
+<wire x1="6.604" y1="6.985" x2="7.366" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="7.366" x2="-4.445" y2="6.604" width="0.127" layer="21"/>
+<wire x1="4.445" y1="7.366" x2="4.445" y2="6.604" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-6.985" x2="-5.08" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-5.461" y1="-7.62" x2="-4.699" y2="-7.62" width="0.127" layer="21"/>
+<text x="5.715" y="-7.62" size="1.27" layer="21" rot="R90" align="center-left">+5V</text>
+<text x="8.255" y="-7.62" size="1.27" layer="21" rot="R90" align="center-left">GND</text>
+<text x="0" y="11.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<smd name="OUT.L-" x="-6.985" y="8.89" dx="1.6764" dy="1.6764" layer="1" roundness="100"/>
+<smd name="OUT.L+" x="-4.445" y="8.89" dx="1.6764" dy="1.6764" layer="1" roundness="100"/>
+<smd name="OUT.R+" x="4.445" y="8.89" dx="1.6764" dy="1.6764" layer="1" roundness="100"/>
+<smd name="OUT.R-" x="6.985" y="8.89" dx="1.6764" dy="1.6764" layer="1" roundness="100"/>
+<smd name="IN.L" x="-7.62" y="-8.89" dx="1.6764" dy="1.6764" layer="1" roundness="100"/>
+<smd name="IN.COM" x="-5.08" y="-8.89" dx="1.6764" dy="1.6764" layer="1" roundness="100"/>
+<smd name="IN.R" x="-2.54" y="-8.89" dx="1.6764" dy="1.6764" layer="1" roundness="100"/>
+<smd name="+5V" x="5.715" y="-8.89" dx="1.6764" dy="1.6764" layer="1" roundness="100"/>
+<smd name="GND" x="8.255" y="-8.89" dx="1.6764" dy="1.6764" layer="1" roundness="100"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AMPLIFIER-PAM8403">
+<description>&lt;b&gt;Stereo Class-D 3W Audio Amplifier&lt;/b&gt; based on &lt;b&gt;PAM8403&lt;/b&gt; chip</description>
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<pin name="IN.L" x="-17.78" y="7.62" visible="pin" length="middle" direction="in"/>
+<pin name="IN.COM" x="-17.78" y="5.08" visible="pin" length="middle" direction="in"/>
+<pin name="IN.R" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="+5V" x="-17.78" y="-7.62" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND" x="-17.78" y="-10.16" visible="pin" length="middle" direction="pwr"/>
+<pin name="OUT.L-" x="17.78" y="7.62" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="OUT.L+" x="17.78" y="2.54" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="OUT.R+" x="17.78" y="-5.08" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="OUT.R-" x="17.78" y="-10.16" visible="pin" length="middle" direction="out" rot="R180"/>
+<text x="-12.7" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AMPLIFIER-PAM8403">
+<description>&lt;b&gt;Stereo Class-D 3W Audio Amplifier&lt;/b&gt; based on &lt;b&gt;PAM8403&lt;/b&gt; chip
+&lt;p&gt;More details available here:&lt;br&gt;
+&lt;a href="http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w-audio-amplifier"&gt;
+http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w-audio-amplifier&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/pam8403+mini+class+d"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=AMPLIFIER-PAM8403"&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="AMPLIFIER-PAM8403" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AMPLIFIER-PAM8403">
+<connects>
+<connect gate="G$1" pin="+5V" pad="+5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IN.COM" pad="IN.COM"/>
+<connect gate="G$1" pin="IN.L" pad="IN.L"/>
+<connect gate="G$1" pin="IN.R" pad="IN.R"/>
+<connect gate="G$1" pin="OUT.L+" pad="OUT.L+"/>
+<connect gate="G$1" pin="OUT.L-" pad="OUT.L-"/>
+<connect gate="G$1" pin="OUT.R+" pad="OUT.R+"/>
+<connect gate="G$1" pin="OUT.R-" pad="OUT.R-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12283,14 +12247,14 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <part name="L-IN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
 <part name="R-IN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
 <part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
-<part name="U$1" library="diy-modules" deviceset="AMPLIFIER-PAM8403" device=""/>
 <part name="J1" library="SJ2-35954D-SMT-TR" deviceset="SJ2-35954D-SMT-TR" device=""/>
 <part name="SPK+" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
 <part name="SPK-" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X13" device="" package3d_urn="urn:adsk.eagle:package:22421/2"/>
 <part name="USBC" library="1-2295018-2" deviceset="1-2295018-2" device=""/>
-<part name="SW0" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
 <part name="SW1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
+<part name="U$1" library="diy-modules" deviceset="AMPLIFIER-PAM8403" device=""/>
+<part name="SW2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12328,7 +12292,7 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <instance part="LEDR" gate="G$1" x="121.92" y="48.26" rot="R180"/>
 <instance part="GND4" gate="1" x="68.58" y="60.96"/>
 <instance part="GND5" gate="1" x="157.48" y="55.88"/>
-<instance part="GND6" gate="1" x="182.88" y="55.88"/>
+<instance part="GND6" gate="1" x="170.18" y="48.26"/>
 <instance part="GND7" gate="1" x="254" y="12.7"/>
 <instance part="GND8" gate="1" x="248.92" y="12.7"/>
 <instance part="GND9" gate="1" x="243.84" y="48.26"/>
@@ -12337,21 +12301,21 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <instance part="U3" gate="U1" x="269.24" y="35.56"/>
 <instance part="D1" gate="G$1" x="254" y="60.96" rot="R180"/>
 <instance part="L1" gate="A" x="276.86" y="60.96" rot="R180"/>
-<instance part="JP3" gate="G$1" x="60.982603125" y="7.664984375"/>
+<instance part="JP3" gate="G$1" x="61.534875" y="7.5785"/>
 <instance part="JP4" gate="G$1" x="83.82" y="7.62"/>
 <instance part="L-OUT" gate="G$1" x="68.58" y="132.08"/>
 <instance part="R-OUT" gate="G$1" x="68.58" y="127"/>
 <instance part="L-IN" gate="G$1" x="68.58" y="121.92"/>
 <instance part="R-IN" gate="G$1" x="68.58" y="116.84"/>
 <instance part="GND" gate="G$1" x="68.58" y="111.76"/>
-<instance part="U$1" gate="G$1" x="157.48" y="132.08" rot="R270"/>
 <instance part="J1" gate="G$1" x="114.3" y="152.4" rot="R270"/>
 <instance part="SPK+" gate="G$1" x="200.66" y="106.68" rot="R180"/>
 <instance part="SPK-" gate="G$1" x="200.66" y="101.6" rot="R180"/>
 <instance part="JP2" gate="A" x="27.94" y="93.98" rot="R90"/>
 <instance part="USBC" gate="G$1" x="20.32" y="147.32"/>
-<instance part="SW0" gate="G$1" x="309.88" y="35.56" rot="R180"/>
 <instance part="SW1" gate="G$1" x="309.88" y="40.64" rot="R180"/>
+<instance part="U$1" gate="G$1" x="157.48" y="132.08" rot="R270"/>
+<instance part="SW2" gate="G$1" x="309.88" y="35.56" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -12474,8 +12438,8 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="182.88" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="58.42" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="50.8" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U1" pin="S2"/>
 </segment>
 <segment>
@@ -12625,11 +12589,6 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 </net>
 <net name="BAT+" class="0">
 <segment>
-<label x="53.34" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="53.34" y1="10.16" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="BAT"/>
 <wire x1="109.22" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -12638,32 +12597,21 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <label x="134.62" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<junction x="289.56" y="27.94"/>
-<wire x1="289.56" y1="27.94" x2="284.48" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="27.94" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="35.56" x2="289.56" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="60.96" x2="276.86" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U3" gate="U1" pin="EN"/>
-<pinref part="L1" gate="A" pin="2"/>
-<pinref part="U3" gate="U1" pin="IN"/>
-<wire x1="284.48" y1="35.56" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
-<junction x="289.56" y="35.56"/>
-</segment>
-<segment>
 <pinref part="SW1" gate="G$1" pin="P"/>
 <wire x1="307.34" y1="40.64" x2="299.72" y2="40.64" width="0.1524" layer="91"/>
 <label x="299.72" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="58.994875" y1="10.037590625" x2="58.994875" y2="10.1185" width="0.1524" layer="91"/>
+<wire x1="58.994875" y1="10.1185" x2="52.602440625" y2="10.1185" width="0.1524" layer="91"/>
+<wire x1="52.602440625" y1="10.1185" x2="52.602440625" y2="12.225715625" width="0.1524" layer="91"/>
+<junction x="58.994875" y="10.1185"/>
+<label x="52.602440625" y="12.225715625" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BAT-" class="0">
 <segment>
-<label x="53.34" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="53.34" y1="7.62" x2="53.34" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="7.62" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="195.58" y1="53.34" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="76.2" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="76.2" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
@@ -12673,25 +12621,33 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <wire x1="185.42" y1="81.28" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
 <junction x="185.42" y="76.2"/>
 <label x="190.5" y="81.28" size="1.778" layer="95" xref="yes"/>
-<pinref part="U1" gate="U1" pin="S1"/>
 <pinref part="U2" gate="U1" pin="GND"/>
+<pinref part="U1" gate="U1" pin="S1"/>
+<wire x1="182.88" y1="45.72" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="60.96" x2="195.58" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="60.96" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="58.994875" y1="7.5785" x2="52.567721875" y2="7.5785" width="0.1524" layer="91"/>
+<wire x1="52.567721875" y1="7.5785" x2="52.567721875" y2="5.244553125" width="0.1524" layer="91"/>
+<label x="52.499403125" y="5.293178125" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <wire x1="160.02" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="71.12" x2="149.86" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="15.24" x2="175.26" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="15.24" x2="175.26" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="71.12" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="25.4" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U1" pin="G2"/>
 <pinref part="U2" gate="U1" pin="OC"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<wire x1="195.58" y1="17.78" x2="195.58" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="12.7" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="12.7" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="25.4" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="22.86" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="22.86" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="76.2" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U1" pin="G1"/>
 <pinref part="U2" gate="U1" pin="OD"/>
@@ -12745,17 +12701,15 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="+5V"/>
 <wire x1="149.86" y1="149.86" x2="149.86" y2="162.56" width="0.1524" layer="91"/>
 <label x="149.86" y="162.56" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="IN.COM"/>
 <wire x1="162.56" y1="149.86" x2="162.56" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="152.4" x2="147.32" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="147.32" y1="152.4" x2="147.32" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="152.4" x2="139.7" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="152.4" x2="139.7" y2="111.76" width="0.1524" layer="91"/>
@@ -12769,6 +12723,8 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <junction x="127" y="134.62"/>
 <wire x1="139.7" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
 <junction x="127" y="111.76"/>
+<pinref part="U$1" gate="G$1" pin="IN.COM"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -12778,19 +12734,19 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <wire x1="111.76" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="129.54" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="IN.L"/>
 <wire x1="165.1" y1="154.94" x2="165.1" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="IN.L"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="IN.R"/>
 <wire x1="160.02" y1="149.86" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="157.48" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="157.48" x2="134.62" y2="127" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="TIP_SWITCH"/>
 <wire x1="134.62" y1="127" x2="106.68" y2="127" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="127" x2="106.68" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="IN.R"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -12811,18 +12767,18 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUT.R+"/>
 <wire x1="152.4" y1="114.3" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="U$1" gate="G$1" pin="OUT.R+"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="106.68" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="OUT.L+"/>
 <wire x1="160.02" y1="106.68" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="OUT.L+"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -12837,10 +12793,10 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUT.R-"/>
 <wire x1="147.32" y1="114.3" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="SPK-" gate="G$1" pin="P"/>
+<pinref part="U$1" gate="G$1" pin="OUT.R-"/>
 </segment>
 </net>
 <net name="L-OUT" class="0">
@@ -12867,12 +12823,6 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <wire x1="43.18" y1="71.12" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="L-OUT1" class="0">
-<segment>
-<pinref part="SW0" gate="G$1" pin="P"/>
-<wire x1="307.34" y1="35.56" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$30" class="0">
 <segment>
 <wire x1="165.1" y1="58.42" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
@@ -12886,6 +12836,24 @@ http://artofcircuits.com/product/pam8403-5v-two-channel-stereo-mini-class-d-3w3w
 <pinref part="U2" gate="U1" pin="VCC"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="U3" gate="U1" pin="EN"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="284.48" y1="27.94" x2="289.56" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U3" gate="U1" pin="IN"/>
+<pinref part="SW2" gate="G$1" pin="P"/>
+<wire x1="284.48" y1="35.56" x2="288.925" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="288.925" y1="35.56" x2="307.34" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="27.94" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="35.56" x2="288.925" y2="35.56" width="0.1524" layer="91"/>
+<junction x="289.56" y="27.94"/>
+<junction x="288.925" y="35.56"/>
+<pinref part="L1" gate="A" pin="2"/>
+<wire x1="288.925" y1="35.56" x2="288.925" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="288.925" y1="60.96" x2="276.86" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
