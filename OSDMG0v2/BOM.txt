@@ -1,0 +1,82 @@
+﻿
+Bauteil         Wert               Device             Package                   Description                                                           
+5V-B                               WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+12K             205k               R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+23K             205k               R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+A               DMG-BTN            DMG-BTNREGULAR     DMG-BTN                                                                                         
+B               DMG-BTN            DMG-BTNREGULAR     DMG-BTN                                                                                         
+BF998E6327HTSA1 INF-SOT143-4-1_V_1 INF-SOT143-4-1_V_1 INF-SOT143-4-1_V_1PRIMARY                                                                       
+C1              10u                C-EUC0603          C0603                     CAPACITOR, European symbol                                            
+C2              0.1uF              C-EUC0603          C0603                     CAPACITOR, European symbol                                            
+C3              100uF              C-EUC1812          C1812                     CAPACITOR, European symbol                                            
+C4              0.1uF              C-USC0805K         C0805K                    CAPACITOR, American symbol                                            
+C5              0.1uF              C-USC0805K         C0805K                    CAPACITOR, American symbol                                            
+C6              10uF               CPOL-USA/3216-18R  A/3216-18R                POLARIZED CAPACITOR, American symbol                                  
+C7              10pF               C-EUC1812          C1812                     CAPACITOR, European symbol                                            
+C8              10uF               C-EUC1812          C1812                     CAPACITOR, European symbol                                            
+C9              10nF               C-EUC1812          C1812                     CAPACITOR, European symbol                                            
+C10             33uF               C-EUC1812          C1812                     CAPACITOR, European symbol                                            
+C11             18pF               C-USC0805K         C0805K                    CAPACITOR, American symbol                                            
+C12             18pF               C-USC0805K         C0805K                    CAPACITOR, American symbol                                            
+C13             0.1uF              C-USC0805K         C0805K                    CAPACITOR, American symbol                                            
+C14             0.1uF              C-USC0805K         C0805K                    CAPACITOR, American symbol                                            
+DOWN            DMG-BTN            DMG-BTNREGULAR     DMG-BTN                                                                                         
+GND                                WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+GND-B                              WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+IC1             ATMEGA32U4-AU      ATMEGA32U4-AU      TQFP44                                                                                          
+IC2             TP4056             TP4056             SOP-8                                                                                           
+J1              SJ2-35954D-SMT-TR  SJ2-35954D-SMT-TR  CUI_SJ2-35954D-SMT-TR     4 conductors, 3.5mm, SMT Audio Jack w/ 2 Switch                       
+JP1                                PINHD-1X2          1X02                      PIN HEADER                                                            
+JP3                                PINHD-1X2          1X02                      PIN HEADER                                                            
+JP4                                PINHD-1X2          1X02                      PIN HEADER                                                            
+L-IN                               WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+L-OUT                              WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+L2              1uH                DR74-220-R         INDM7676X435N             POWER INDUCTOR                                                        
+LEDG1                              LEDCHIP-LED0603    CHIP-LED0603              LED                                                                   
+LEDR1                              LEDCHIP-LED0603    CHIP-LED0603              LED                                                                   
+LEFT            DMG-BTN            DMG-BTNREGULAR     DMG-BTN                                                                                         
+MMBT9015C       INF-SOT23_M_1      INF-SOT23_M_1      INF-SOT23_M_1PRIMARY                                                                            
+PWR             GREEN              LEDCHIPLED_0805    CHIPLED_0805              LED                                                                   
+R-IN                               WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+R-OUT                              WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+R1              150k               R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R2              1k                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R3              1k                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R4              150k               R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R5              1k                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R6              1k                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R7              22                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R8              2k                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R9              100                R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R10             16                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R11             16                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R12             2k                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R13             1M                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R14             1M                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R15             30.9k              R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R16             205k               R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R17             619k               R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R18             22                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+R19             1k                 R-EU_R0603         R0603                     RESISTOR, European symbol                                             
+RESET                              WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+RIGHT           DMG-BTN            DMG-BTNREGULAR     DMG-BTN                                                                                         
+RPI-D+                             WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+RPI-D-                             WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+S2              JS202011SCQN       JS202011SCQN       SW_JS202011SCQN           JS Series DPDT On-On Gull Wing Surface Mount Subminiature Slide Switch
+SELECT          DMG-BTN            DMG-BTNSELECT      DMG-SEL                                                                                         
+SJ2             VCC                SJ                 SJ                        SMD solder JUMPER                                                     
+SPK+                               WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+SPK-                               WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+START           DMG-BTN            DMG-BTNSELECT      DMG-SEL                                                                                         
+SW2                                WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+SW3                                WIREPADSMD1,27-254 SMD1,27-2,54              Wire PAD connect wire on PCB                                          
+T1              BC846S             BC846S             SOT363                    Dual 65 V, 100 mA NPN/NPN general-purpose transistor                  
+U$1             AMPLIFIER-PAM8403  AMPLIFIER-PAM8403  AMPLIFIER-PAM8403         Stereo Class-D 3W Audio Amplifier based on PAM8403 chip               
+U$3             TPS61235RWLR       CONV_TPS61235RWLR  CONV_TPS61235RWLR                                                                               
+U1              FS8205             FS8205             SOT23-6                                                                                         
+U3              FS312F-G           FS312F-G           SOT23-6                                                                                         
+UP              DMG-BTN            DMG-BTNREGULAR     DMG-BTN                                                                                         
+USBC1           1-2295018-2        1-2295018-2        TE_1-2295018-2            SPLASH PROOF USB TYPE C REC, DUAL SMT; Tape/Reel of 900               
+X               DMG-BTN            DMG-BTNREGULAR     DMG-BTN                                                                                         
+X3              16MHz              XTALNX5032         NX5032                                                                                          
+Y               DMG-BTN            DMG-BTNREGULAR     DMG-BTN                                                                                         
