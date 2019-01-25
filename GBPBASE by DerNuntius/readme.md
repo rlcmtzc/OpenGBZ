@@ -1,8 +1,11 @@
 # First revision of the Gameboy Pocket PCB
 
 **Author:** DerNuntius
+
 **Tested:** No, but works in theory.
+
 **BOM-file:** unnecessary
+
 **Build:** Later...
 
 ## Description:
