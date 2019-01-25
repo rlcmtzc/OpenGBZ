@@ -13,12 +13,7 @@ This board has an integrated charging and Boost circuit. The Boost circuit is ba
 [Here](https://easyeda.com/editor#id=|1b6bda1489604f5b8086fe82ce4b43ba|fd54b8f932f541aa9ddfa8aae15e51a3) you can edit and change the Project online. There are also the Altium and Eagle files.
 ## Images:
 
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/images/bottom_new.PNG)
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/images/top_new.PNG)
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/images/pcb_stack_front.jpg)
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/images/pcb_back.jpg)
-![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG0v1/images/pcb_back_soldered.jpg)
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/GBPBASE%20by%20DerNuntius/images/top.jpg)
+![](https://github.com/rlcmtzc/OpenGBZ/blob/master/GBPBASE%20by%20DerNuntius/images/bottom.jpg)
 
-## BOM
 
-In this Directory there is also an BOM-file with all the componends needed for this Board (BOM-file for [LCSC](https://lcsc.com/user/bom))
