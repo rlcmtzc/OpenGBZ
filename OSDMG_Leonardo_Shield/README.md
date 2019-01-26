@@ -1,7 +1,7 @@
-     # Base Version of my opensource DMG Board
+
 
 **Author:** rlcmtzc12 *(Based on correia5022 idea)*  
-**Tested:** yes  
+**Tested:** no  
 **BOM-file:** not needed   
 **Build:** /  
 
