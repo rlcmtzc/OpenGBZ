@@ -30,7 +30,7 @@ Here is a short overview of the currently added projets to this repository pleas
 | OSDMGBASE            | rlcmtzc12             | Yes        | not needed| finished          |
 | OSDMG0v1             | rlcmtzc12             | Yes        | Yes       | finished          |
 | OSDMG0v2             | rlcmtzc12             | No         | Yes       | finished          |
-| GBPBASE by DerNuntius| DerNuntius            | No         | not needed| finished          |
+| GBPBASE by DerNuntius| DerNuntius            | Yes        | not needed| finished          |
 | OSDMG_Leonardo_Shield| rlcmtzc12 (correia5022´s idea)| No         | not needed| finished          |
 ## Terms of use
 * **You can do everything with the files the only thing I would appreciate is not to use the designs and sell the PCBs this should stay a non-profit project.**
