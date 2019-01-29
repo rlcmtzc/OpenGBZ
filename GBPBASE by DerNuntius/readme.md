@@ -2,7 +2,7 @@
 
 **Author:** DerNuntius
 
-**Tested:** No
+**Tested:** Yes
 
 **BOM-file:** unnecessary
 
