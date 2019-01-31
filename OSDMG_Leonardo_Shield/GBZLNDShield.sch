@@ -906,6 +906,56 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad" urn="urn:adsk.eagle:library:412">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMD2,54-5,08" urn="urn:adsk.eagle:footprint:30823/1" library_version="1">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<smd name="1" x="0" y="0" dx="2.54" dy="5.08" layer="1"/>
+<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-1.5" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SMD2,54-5,08" urn="urn:adsk.eagle:package:30841/1" type="box" library_version="1">
+<description>SMD PAD</description>
+<packageinstances>
+<packageinstance name="SMD2,54-5,08"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PAD" urn="urn:adsk.eagle:symbol:30808/1" library_version="1">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMD5" urn="urn:adsk.eagle:component:30859/1" prefix="PAD" uservalue="yes" library_version="1">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD2,54-5,08">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30841/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -928,6 +978,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Y" library="Game Boy" deviceset="DMG-BTN" device="REGULAR" value="DMG-BTN"/>
 <part name="JP2" library="adafruit" deviceset="PINHD-1X18" device="-BIG"/>
 <part name="B1" library="SparkFun-Boards" deviceset="ARDUINO_PRO_MINI" device=""/>
+<part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
+<part name="PAD6" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -946,6 +1002,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="Y" gate="G$1" x="17.78" y="0"/>
 <instance part="JP2" gate="A" x="109.22" y="91.44" rot="R90"/>
 <instance part="B1" gate="G$1" x="139.7" y="40.64"/>
+<instance part="PAD1" gate="1" x="167.64" y="93.98"/>
+<instance part="PAD2" gate="1" x="167.64" y="91.44"/>
+<instance part="PAD3" gate="1" x="167.64" y="88.9"/>
+<instance part="PAD4" gate="1" x="43.18" y="81.28"/>
+<instance part="PAD5" gate="1" x="43.18" y="78.74"/>
+<instance part="PAD6" gate="1" x="43.18" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -1042,7 +1104,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="LEFT" gate="G$1" pin="P$1"/>
 <wire x1="12.7" y1="68.58" x2="12.7" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="UP" gate="G$1" pin="P$1"/>
-<wire x1="12.7" y1="86.36" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="86.36" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="60.96" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
 <junction x="12.7" y="68.58"/>
 <pinref part="DOWN" gate="G$1" pin="P$1"/>
@@ -1070,6 +1133,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="Y" gate="G$1" pin="P$1"/>
 <wire x1="88.9" y1="86.36" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="1"/>
+<pinref part="PAD6" gate="1" pin="P"/>
+<pinref part="PAD5" gate="1" pin="P"/>
+<wire x1="45.72" y1="76.2" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="PAD4" gate="1" pin="P"/>
+<wire x1="45.72" y1="78.74" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+<junction x="45.72" y="78.74"/>
+<wire x1="45.72" y1="81.28" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+<junction x="45.72" y="81.28"/>
+<junction x="45.72" y="86.36"/>
+<pinref part="B1" gate="G$1" pin="GND"/>
+<wire x1="129.54" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="50.8" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<junction x="88.9" y="86.36"/>
+<pinref part="B1" gate="G$1" pin="GND@2"/>
+<wire x1="88.9" y1="63.5" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="55.88" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="55.88" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<junction x="88.9" y="63.5"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -1154,9 +1236,46 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="B1" gate="G$1" pin="A0"/>
 </segment>
 </net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="PAD1" gate="1" pin="P"/>
+<pinref part="PAD2" gate="1" pin="P"/>
+<wire x1="170.18" y1="93.98" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="PAD3" gate="1" pin="P"/>
+<wire x1="170.18" y1="91.44" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
+<junction x="170.18" y="91.44"/>
+<wire x1="170.18" y1="88.9" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
+<junction x="170.18" y="88.9"/>
+<pinref part="JP2" gate="A" pin="17"/>
+<wire x1="170.18" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="81.28" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="81.28" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="VCC"/>
+<wire x1="152.4" y1="50.8" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="50.8" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
+<junction x="165.1" y="81.28"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>

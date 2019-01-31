@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.0*%
+%TF.CreationDate,2019-01-31T10:13:58Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Moritz Erlacher <moritz.erlacher@student.tugraz.at>*%
+%TJ.B_ID,GBZLNDShield*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,81.298619*%
+%TJ.B_Size_Y,52.080725*%
+M02*
