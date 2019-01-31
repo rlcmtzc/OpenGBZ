@@ -15,3 +15,4 @@ The attached Eagle-files include everything.
 
 ![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG_Leonardo_Shield/images/opemGBZ_bottom.png)
 ![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG_Leonardo_Shield/images/opemGBZ_top.png)
+(weirdly the traces don´t show on the Images but are there in the Gerbers and in the Schematics)
