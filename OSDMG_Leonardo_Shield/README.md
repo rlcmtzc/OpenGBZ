@@ -7,7 +7,7 @@
 
 ## Description:
 
-This is a Shield like Projekt for the Leonardo/ Pro micro. There is place for a Pro Micro or Leonardo Board and a Battery input and a LED output
+This is a Shield like Projekt for the Leonardo/ Pro micro. There is place for a Pro Micro or Leonardo Board and a Battery input and a LED output. It can be also used the same liek the OSDMGBASE Board by just using the throughole pads (Bat and LED of course only works with an Arduino/Leonardo Board).
 ## Get Project:
 The attached Eagle-files include everything.
 
@@ -15,4 +15,3 @@ The attached Eagle-files include everything.
 
 ![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG_Leonardo_Shield/images/opemGBZ_bottom.png)
 ![](https://github.com/rlcmtzc/OpenGBZ/blob/master/OSDMG_Leonardo_Shield/images/opemGBZ_top.png)
-(weirdly the traces don´t show on the Images but are there in the Gerbers and in the Schematics)
